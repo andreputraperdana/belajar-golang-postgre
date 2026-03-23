@@ -55,6 +55,7 @@ func main() {
 	fmt.Printf("Data berhasil masuk! ID: %d\n", lastInsertID) */
 
 	deleteQuery := `DELETE FROM projects`
+	fmt.Println("test")
 
 	// 6. SELECT DATA (Read)
 	fmt.Println("\n--- Daftar Project di Database ---")
